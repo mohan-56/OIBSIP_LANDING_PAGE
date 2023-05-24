@@ -1,0 +1,110 @@
+
+.hero {
+    padding: 100px 0;
+    text-align: center;
+}
+h3{
+    font-size: 2rem;
+    font-weight: 300; 
+    font-family: 'Bebas Neue', sans-serif;  
+}
+    .navbar-brand{
+        margin:0 1.5rem;
+       /* // font-family: 'Bebas Neue', sans-serif;
+       //font-family: 'Oswald', sans-serif;
+       //font-family: 'Anton', sans-serif; */
+       font-family: 'Exo', sans-serif;
+       font-family: 'Bangers', cursive;
+        font-size: 28px;
+    }
+.collapse
+{  margin: 0 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Exo', sans-serif;
+color:white;
+}
+.nav-link{
+    color: white;
+}
+.container
+{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .7px;
+}
+.container>h2{
+    
+    font-size: 3.5rem;
+   margin: 1.5rem;
+}
+.sports .card {
+    transition: transform 0.3s ease-in-out;
+}
+#sports>img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+}
+#players>img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+    
+}
+#sports
+{
+   margin: 0 0;
+  
+
+}
+
+.sports .card:hover {
+    transform: scale(1.05);
+}
+.card 
+{
+  height: 100%;
+  width: 100%;
+}
+.card .card-body
+{  
+   display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+  
+}
+.players .card {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.players .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel
+{  margin: 5% 10%;
+    height: 80%;
+    width: 80%;
+
+}
+.btn
+{
+    margin: 1rem;
+}
+
+.contact form {
+    margin-top: 50px;
+}
+
+.contact input,
+.contact textarea {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 20px 0;
+}
